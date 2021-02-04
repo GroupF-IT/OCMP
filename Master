@@ -11,26 +11,27 @@
     <script src="Scripts/popper.min.js"></script>
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/favicon.png" rel="icon"/>
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet"/>
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet"/>
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet"/>
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
-<body>
-   <!-- ======= Header ======= -->
+<body>        
+
+  <!-- ======= Header ======= -->
   <header id="header" class="header-transparent">
       <div class="container">
 
@@ -51,7 +52,7 @@
                   <li><a href="#portfolio">المتاحف</a></li><!--museums-->
                   <li><a href="#team">فريقنا</a></li>
                   <li><a href="#about">عن إرث </a></li>
-                  <li class="menu-active"><a href="index.html">الصفحة الرئيسية</a></li><!--hero-->
+                  <li class="menu-active"><a href="Master.aspx">الصفحة الرئيسية</a></li><!--hero-->
               </ul>
 
           </nav><!-- #nav-menu-container -->
@@ -72,75 +73,20 @@
 
   <main id="main">
 
-      <!-- ======= About Section ======= -->
+    <!-- ======= About Section ======= -->
       <section id="about">
-          <div class="container" data-aos="fade-up">
-              <div class="row about-container">
+          <div class="abou-section" data-aos="fade-up">
+              <div class="row inner-container">
+                <h2>الإرث</h2> 
+                  <p class="text">يعد الإرث الحضاري للشعوب البصمة التاريخية التي يثبت بها تطوّره وازدهاره، فلا شيء يصنع هوية الأمم ويعزز قيمها ويبني مجدها أكثر من التراث. تتميز منطقة عسير التي تقع جنوب المملكة العربية السعودية بإرثٍ حضاري وتاريخي عريق وطبيعةٍ خلّابة ومناخ متنوع مما جعلها مزاراً للسياح طوال العام. 
+من هنا كان منطلق هدفنا وهو الحفاظ على هذا الإرث ونقله إلى الأجيال القادمة عن طريق جمع متاحف منطقة عسير في بوابة واحدة وتوثيق مقتنياتها وتوفير المعلومات الكافية عنها ليسهل التعرف عليها والوصول لها.
 
-                  <div class="col-lg-6 content order-lg-1 order-2">
-                      <h2 class="title">الإرث</h2>
-                      <p>
-                          يعد الإرث الحضاري للشعوب البصمة التاريخية التي يثبت بها تطوّره وازدهاره، فلا شيء يصنع هوية الأمم ويعزز قيمها ويبني مجدها أكثر من التراث. تتميز منطقة عسير التي تقع جنوب المملكة العربية السعودية بإرثٍ حضاري وتاريخي عريق وطبيعةٍ خلّابة ومناخ متنوع مما جعلها مزاراً للسياح طوال العام.
-                      </p>
-                      <!--
-    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-        <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-        <h4 class="title"><a href="">المتحف</a></h4>
-        <p class="description">حتى يقوم بدور فعال في إثراء مسيرة التعليم والتوعية الثقافية مما يسهم في تنمية الشعور بالانتماء لحضارة عريقة.   </div>
-
-    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-        <div class="icon"><i class="fa fa-photo"></i></div>
-        <h4 class="title"><a href="">المتحف</a></h4>
-        <p class="description">حرص المتحف على توفير بيئة تعليمية لشريحة الزائرين من العامة كالأطفال، والأُسر، والباحثين، والمختصين.</p>
-    </div>
-
-    <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-        <div class="icon"><i class="fa fa-bar-chart"></i></div>
-        <h4 class="title"><a href="">المتحف</a></h4>
-        <p class="description">حرص المتحف على توفير بيئة تعليمية لشريحة الزائرين من العامة كالأطفال، والأُسر، والباحثين، والمختصين.</p>
-    </div>-->
-
-                  </div>
-                  
-                  <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100" ></div>
+                  </p>
+                
               </div>
-
           </div>
       </section><!-- End About Section -->
-      <!-- ======= Facts Section ======= -->
-      <section id="facts">
-          <div class="container" data-aos="fade-up">
-              <div class="section-header">
-                  <h3 class="section-title">Facts</h3>
-                  <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-              </div>
-              <div class="row counters">
-
-                  <div class="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">232</span>
-                      <p>Clients</p>
-                  </div>
-
-                  <div class="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">521</span>
-                      <p>Projects</p>
-                  </div>
-
-                  <div class="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">1,463</span>
-                      <p>Hours Of Support</p>
-                  </div>
-
-                  <div class="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">15</span>
-                      <p>Hard Workers</p>
-                  </div>
-
-              </div>
-
-          </div>
-      </section><!-- End Facts Section -->
-      <!-- ======= Services Section ======= -->
+       <!-- ======= Services Section ======= -->
       <section id="services">
           <div class="container" data-aos="fade-up">
               <div class="section-header">
@@ -150,31 +96,31 @@
               <div class="row">
                   <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                       <div class="box">
-                          <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
-                          <h4 class="title"><a href="">جمع متاحف عسير في بوابة واحدة</a></h4>
+                          <div class="icon"><a href="#"><i class="fa fa-desktop"></i></a></div>
+                          <h4 class="title"><a href="#">جمع متاحف عسير في بوابة واحدة</a></h4>
                           <p class="description"> يمكنك تصفح جميع متاحف عسير في بوابة إرث</p>
                       </div>
                   </div>
                   <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                       <div class="box">
-                          <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
-                          <h4 class="title"><a href="">توثيق متاحف عسير الكترونياً</a></h4>
+                          <div class="icon"><a href="#"><i class="fa fa-photo"></i></a></div>
+                          <h4 class="title"><a href="#">توثيق متاحف عسير الكترونياً</a></h4>
                           <p class="description">يمكنك التعرف عن بعد على محتويات متاحف عسير</p>
                       </div>
                   </div>
 
                   <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                       <div class="box">
-                          <div class="icon"><a href=""><i class="fa fa-map"></i></a></div>
-                          <h4 class="title"><a href="">خدمة اقرب متحف لموقعك</a></h4>
+                          <div class="icon"><a href="#"><i class="fa fa-map"></i></a></div>
+                          <h4 class="title"><a href="#">خدمة اقرب متحف لموقعك</a></h4>
                           <p class="description">يمكنك استخدام أداة تحديد المواقع لتحديد أقرب متحف لموقعك</p>
                       </div>
                   </div>
 
                   <div class="col-lg-4 col-md-6" data-aos="zoom-in">
                       <div class="box">
-                          <div class="icon"><a href=""><i class="fa fa-ticket"></i></a></div>
-                          <h4 class="title"><a href="">الحجز والتخطيط لزياراتك</a></h4>
+                          <div class="icon"><a href="#"><i class="fa fa-ticket"></i></a></div>
+                          <h4 class="title"><a href="#">الحجز والتخطيط لزياراتك</a></h4>
                           <p class="description"> يمكنك حجز موعد زيارة مسبق لاحد متاحف عسير </p>
                       </div>
                   </div>
@@ -182,6 +128,8 @@
 
           </div>
       </section><!-- End Services Section -->
+
+        
       <!-- =======Login Call To Action Section ======= -->
       <section id="call-to-action">
           <div class="container">
@@ -203,6 +151,7 @@
       </section><!-- End Call To Action Section -->
       <!-- ======= Portfolio Section ======= -->
       <section id="portfolio" class="portfolio">
+         
           <div class="container" data-aos="fade-up">
               <div class="section-header">
                   <h3 class="section-title">Portfolio</h3>
@@ -222,8 +171,8 @@
 
               <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                      <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-app"/>
+                      <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>App 1</h4>
                           <p>App</p>
@@ -233,7 +182,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>Web 3</h4>
                           <p>Web</p>
@@ -243,7 +192,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                      <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>App 2</h4>
                           <p>App</p>
@@ -253,7 +202,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>Card 2</h4>
                           <p>Card</p>
@@ -263,7 +212,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>Web 2</h4>
                           <p>Web</p>
@@ -273,7 +222,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                      <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>App 3</h4>
                           <p>App</p>
@@ -283,7 +232,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>Card 1</h4>
                           <p>Card</p>
@@ -293,7 +242,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>Card 3</h4>
                           <p>Card</p>
@@ -303,7 +252,7 @@
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                      <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""/>
                       <div class="portfolio-info">
                           <h4>Web 3</h4>
                           <p>Web</p>
@@ -314,9 +263,9 @@
 
               </div>
 
-          </div>
-      </section><!-- End Portfolio Section -->
-      <!-- ======= Team Section ======= -->
+               </section><!-- End Portfolio Section -->
+      
+       <!-- ======= Team Section ======= -->
       <section id="team">
           <div class="container" data-aos="fade-up">
               <div class="section-header">
@@ -326,7 +275,7 @@
               <div class="row">
                   <div class="col-lg-3 col-md-6">
                       <div class="member" data-aos="fade-up" data-aos-delay="100">
-                          <div class="pic"><img src="assets/img/1.jpg" alt=""></div>
+                          <div class="pic"><img src="assets/img/1.jpg" alt=""/></div>
                           <h4 class="text-lg-center">عبير يحيى</h4>
                           <span>نظم معلومات</span>
                           <div class="social">
@@ -340,7 +289,7 @@
 
                   <div class="col-lg-3 col-md-6">
                       <div class="member" data-aos="fade-up" data-aos-delay="200">
-                          <div class="pic"><img src="assets/img/2.jpg" alt=""></div>
+                          <div class="pic"><img src="assets/img/2.jpg" alt=""/></div>
                           <h4 class="text-lg-center">نوف محمد</h4>
                           <span>نظم معلومات</span>
                           <div class="social">
@@ -368,7 +317,7 @@
 
                   <div class="col-lg-3 col-md-6">
                       <div class="member" data-aos="fade-up" data-aos-delay="400">
-                          <div class="pic"><img src="assets/img/4.jpg" alt=""></div>
+                          <div class="pic"><img src="assets/img/4.jpg" alt=""/></div>
                           <h4 class="text-lg-center">رؤى خالد</h4>
                           <span>نظم معلومات</span>
                           <div class="social">
@@ -401,7 +350,7 @@
                       <div class="info">
                           <div>
                               <i class="fa fa-map-marker"></i>
-                              <p>عسير<br>أبها شارع 1234</p>
+                              <p>عسير<br/>أبها شارع 1234</p>
                           </div>
 
                           <div>
@@ -507,6 +456,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+        
+   
+
 </body>
 </html>
-
