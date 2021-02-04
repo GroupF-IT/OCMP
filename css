@@ -1,10 +1,3 @@
-/**
-* Template Name: Regna - v2.2.1
-* Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -21,7 +14,7 @@ a {
 }
 
     a:hover, a:active, a:focus {
-        color: #2dca98;
+        color: #8cc4b2;
         outline: none;
         text-decoration: none;
     }
@@ -581,103 +574,60 @@ section {
 --------------------------------*/
 #about {
     background: #fff;
-    padding: 80px 0;
+   /* padding: 80px 0;*/
 }
 
-    #about .about-container .background {
+    /*#about .about-container .background {
         min-height: 300px;
         background: url(../img/erth.about.jpg) center top no-repeat;
         margin-bottom: 10px;
+    }*/
+
+    #about .abou-section {
+        background: url(../img/Traditional.about.jpg) no-repeat left;
+        background-size: 55%;
+        background-color: #fff;
+        overflow: hidden;
+        padding: 21px 0;
+    }
+    #about .inner-container{
+        width: 55%;
+        float:right;
+        background-color:#fff;
+        padding: 125px;
     }
 
-    #about .about-container .content {
-        background: #fff;
+    #about .inner-container h2{
+        margin-bottom: 30px;
+        font-size:30px;
+        font-weight:900;
     }
 
-    #about .about-container .title {
-        color: #333;
-        font-weight: 700;
-        font-size: 32px;
+    @media screen and (max-width: 1200px) {
+        #about .inner-container {
+            padding: 80px;
+        }
     }
 
+    @media screen and (max-width: 1000px) {
+        #about .abou-section {
+            background-size:100%;
+            padding:100px 40px;
+        }
+    }
 @media (max-width: 768px) {
-    #about .about-container .title {
+    #about .abou-section .h2 {
         padding-top: 15px;
+    }
+    #about .inner-container{
+        width:100%;
     }
 }
 
-#about .about-container p {
+#about .abou-section p {
     line-height: 26px;
 }
 
-    #about .about-container p:last-child {
-        margin-bottom: 0;
-    }
-
-#about .about-container .icon-box {
-    background: #fff;
-    background-size: cover;
-    padding: 0 0 30px 0;
-}
-
-    #about .about-container .icon-box .icon {
-        float: right;
-        background: #fff;
-        width: 64px;
-        height: 64px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        border-radius: 50%;
-        border: 2px solid #054d36;
-    }
-
-        #about .about-container .icon-box .icon i {
-            color: #054d36;
-            font-size: 24px;
-        }
-
-    #about .about-container .icon-box .title {
-        margin-left: 80px;
-        font-weight: 500;
-        margin-bottom: 5px;
-        font-size: 18px;
-        text-transform: uppercase;
-    }
-
-        #about .about-container .icon-box .title a {
-            color: #111;
-            text-align: center;
-        }
-
-    #about .about-container .icon-box .description {
-        /*margin-left: 80px;*/
-        text-align: center;
-        line-height: 24px;
-        font-size: 14px;
-    }
-
-/* Facts Section
---------------------------------
-#facts {
-    background: #f7f7f7;
-    padding: 80px 0 60px 0;
-}
-
-    #facts .counters span {
-        font-size: 48px;
-        display: block;
-        color: #054d36;
-    }
-
-    #facts .counters p {
-        padding: 0;
-        margin: 0 0 20px 0;
-        font-family: 'Tajawal', sans-serif;
-        font-size: 14px;
-    }*/
 
 /* Services Section
 --------------------------------*/
