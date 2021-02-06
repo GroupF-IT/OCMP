@@ -48,8 +48,8 @@
               <ul class="nav-menu">
                   <li><a href="#contact">تواصل معنا</a></li>
                   <li><a href="#nearby">nearby</a></li>
-                  <li><a href="#portfolio">الأحداث</a></li>
-                  <li><a href="#portfolio">المتاحف</a></li><!--museums-->
+                  <li><a href="#events">الأحداث</a></li>
+                  <li><a href="#museums">المتاحف</a></li><!--museums-->
                   <li><a href="#team">فريقنا</a></li>
                   <li><a href="#about">عن إرث </a></li>
                   <li class="menu-active"><a href="Master.aspx">الصفحة الرئيسية</a></li><!--hero-->
@@ -81,189 +81,124 @@
                   <p class="text">يعد الإرث الحضاري للشعوب البصمة التاريخية التي يثبت بها تطوّره وازدهاره، فلا شيء يصنع هوية الأمم ويعزز قيمها ويبني مجدها أكثر من التراث. تتميز منطقة عسير التي تقع جنوب المملكة العربية السعودية بإرثٍ حضاري وتاريخي عريق وطبيعةٍ خلّابة ومناخ متنوع مما جعلها مزاراً للسياح طوال العام. 
 من هنا كان منطلق هدفنا وهو الحفاظ على هذا الإرث ونقله إلى الأجيال القادمة عن طريق جمع متاحف منطقة عسير في بوابة واحدة وتوثيق مقتنياتها وتوفير المعلومات الكافية عنها ليسهل التعرف عليها والوصول لها.
 
-                  </p>
-                
+                  </p>                
               </div>
           </div>
       </section><!-- End About Section -->
-       <!-- ======= Services Section ======= -->
-      <section id="services">
-          <div class="container" data-aos="fade-up">
-              <div class="section-header">
-                  <h3 class="section-title">خدماتنا</h3>
-                  <p class="section-description">تقدم بوابة إرث مجموعة من الخدمات تسهل لك الوصول لمتاحف عسير في أي وقت</p>
-              </div>
-              <div class="row">
-                  <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-                      <div class="box">
-                          <div class="icon"><a href="#"><i class="fa fa-desktop"></i></a></div>
-                          <h4 class="title"><a href="#">جمع متاحف عسير في بوابة واحدة</a></h4>
-                          <p class="description"> يمكنك تصفح جميع متاحف عسير في بوابة إرث</p>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-                      <div class="box">
-                          <div class="icon"><a href="#"><i class="fa fa-photo"></i></a></div>
-                          <h4 class="title"><a href="#">توثيق متاحف عسير الكترونياً</a></h4>
-                          <p class="description">يمكنك التعرف عن بعد على محتويات متاحف عسير</p>
-                      </div>
-                  </div>
 
-                  <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-                      <div class="box">
-                          <div class="icon"><a href="#"><i class="fa fa-map"></i></a></div>
-                          <h4 class="title"><a href="#">خدمة اقرب متحف لموقعك</a></h4>
-                          <p class="description">يمكنك استخدام أداة تحديد المواقع لتحديد أقرب متحف لموقعك</p>
-                      </div>
-                  </div>
+    <%-- Museums Section --%>
+      <section id="museums">
+         <div id="museums-cards">
+        <div class="container">
+             <h2 class="title">متاحـف عسيـر</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/hero.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>العنوان 1</h6>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. </p>
+                                    <a href="#">لتفاصيل أكثر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/hero.jpg" alt="" />
+                                </div>
+                                <div class="text-container">                                    
+                                   <h6>العنوان 2</h6>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. </p>
+                                    <a href="#">لتفاصيل أكثر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/hero.jpg" alt="" />
+                                </div>
 
-                  <div class="col-lg-4 col-md-6" data-aos="zoom-in">
-                      <div class="box">
-                          <div class="icon"><a href="#"><i class="fa fa-ticket"></i></a></div>
-                          <h4 class="title"><a href="#">الحجز والتخطيط لزياراتك</a></h4>
-                          <p class="description"> يمكنك حجز موعد زيارة مسبق لاحد متاحف عسير </p>
-                      </div>
-                  </div>
-              </div>
+                                <div class="text-container">
+                                    <h6>العنوان 3</h6>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. </p>
+                                    <a href="#">لتفاصيل أكثر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/hero.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                   <h6>العنوان 4</h6>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. </p>
+                                    <a href="#">لتفاصيل أكثر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="#">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/hero.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                   <h6>العنوان 5</h6>
+                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. </p>
+                                    <a href="#">لتفاصيل أكثر</a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+      </section>
+    <%-- End Museums Section --%>
 
-          </div>
-      </section><!-- End Services Section -->
+
+     
 
         
-      <!-- =======Login Call To Action Section ======= -->
-      <section id="call-to-action">
-          <div class="container">
-              <div class="row" data-aos="zoom-in">
-                  <div class="text-center">
-                      <h1 class="cta-title">إنضـم لنا</h1>
-                      <p class="cta-text">
-                          لمتحف الوطني كان جزء من "خطة المربع للتنمية" لإعادة صقل المنطقة المحيطة بقصر المربع القديم للاحتفالات السنوية بالسعودية.
-                          لذا حُدد وقت الانتهاء في 1999، تاركا 26 شهر فقط لإتمام بناء المتحف، مع إن خطة إنشاء هذا المتحف قد نُقشت منذ بداية الثمانينات..
-                      </p>
-                      <a class="cta-btn align-middle" href="#login">تسجيل الدخول</a>
-                  </div>
-                  <!-- <div class="col-lg-3 cta-btn-container text-center">
-                   <a class="cta-btn align-middle" href="#login">تسجيل الدخول</a>
-                </div>-->
-              </div>
-
-          </div>
-      </section><!-- End Call To Action Section -->
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
+    
+      <!-- ======= Events Section ======= -->
+      <section id="events" class="portfolio">
          
           <div class="container" data-aos="fade-up">
               <div class="section-header">
-                  <h3 class="section-title">Portfolio</h3>
-                  <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                  <h3 class="section-title">الأحداث</h3>
+                  <p class="section-description">أحداث وأخبار المتاحف</p>
+                  <p>ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.</p>
+                  <p>ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.</p>
+                  <p>ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.</p>
+              
               </div>
+          </div>
 
-              <div class="row" data-aos="fade-up" data-aos-delay="100">
-                  <div class="col-lg-12 d-flex justify-content-center">
-                      <ul id="portfolio-flters">
-                          <li data-filter="*" class="filter-active">All</li>
-                          <li data-filter=".filter-app">App</li>
-                          <li data-filter=".filter-card">Card</li>
-                          <li data-filter=".filter-web">Web</li>
-                      </ul>
-                  </div>
-              </div>
-
-              <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app"/>
-                      <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>App 1</h4>
-                          <p>App</p>
-                          <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>Web 3</h4>
-                          <p>Web</p>
-                          <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                      <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>App 2</h4>
-                          <p>App</p>
-                          <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>Card 2</h4>
-                          <p>Card</p>
-                          <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>Web 2</h4>
-                          <p>Web</p>
-                          <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                      <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>App 3</h4>
-                          <p>App</p>
-                          <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>Card 1</h4>
-                          <p>Card</p>
-                          <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>Card 3</h4>
-                          <p>Card</p>
-                          <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""/>
-                      <div class="portfolio-info">
-                          <h4>Web 3</h4>
-                          <p>Web</p>
-                          <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                          <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-                      </div>
-                  </div>
-
-              </div>
-
-               </section><!-- End Portfolio Section -->
+               </section><!-- End events Section -->
       
        <!-- ======= Team Section ======= -->
       <section id="team">
@@ -275,9 +210,10 @@
               <div class="row">
                   <div class="col-lg-3 col-md-6">
                       <div class="member" data-aos="fade-up" data-aos-delay="100">
-                          <div class="pic"><img src="assets/img/1.jpg" alt=""/></div>
+                          <div class="pic"><img src="assets/img/1.png" alt=""/></div>
                           <h4 class="text-lg-center">عبير يحيى</h4>
                           <span>نظم معلومات</span>
+                          <span>Front-end Developer</span>
                           <div class="social">
                               <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                               <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
@@ -289,9 +225,11 @@
 
                   <div class="col-lg-3 col-md-6">
                       <div class="member" data-aos="fade-up" data-aos-delay="200">
-                          <div class="pic"><img src="assets/img/2.jpg" alt=""/></div>
+                          <div class="pic"><img src="assets/img/2.png" alt=""/></div>
                           <h4 class="text-lg-center">نوف محمد</h4>
                           <span>نظم معلومات</span>
+                          <span>Front-end Developer</span>
+
                           <div class="social">
                               <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                               <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
@@ -303,9 +241,10 @@
 
                   <div class="col-lg-3 col-md-6">
                       <div class="member" data-aos="fade-up" data-aos-delay="300">
-                          <div class="pic"><img src="assets/img/3.jpg" alt=""></div>
+                          <div class="pic"><img src="assets/img/3.png" alt=""/></div>
                           <h4 class="text-lg-center">ولاء خالد</h4>
                           <span>نظم معلومات</span>
+                          <span>Back-end Developer</span>
                           <div class="social">
                               <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                               <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
@@ -317,9 +256,10 @@
 
                   <div class="col-lg-3 col-md-6">
                       <div class="member" data-aos="fade-up" data-aos-delay="400">
-                          <div class="pic"><img src="assets/img/4.jpg" alt=""/></div>
+                          <div class="pic"><img src="assets/img/4.png" alt=""/></div>
                           <h4 class="text-lg-center">رؤى خالد</h4>
                           <span>نظم معلومات</span>
+                          <span>Back-end Developer</span>
                           <div class="social">
                               <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                               <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
@@ -332,6 +272,7 @@
 
           </div>
       </section><!-- End Team Section -->
+
       <!-- ======= Contact Section ======= -->
       <section id="contact">
           <div class="container">
@@ -461,84 +402,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-__________________________________________________________________________
-
-======= Team Section ======= -->
-      <section id="team">
-          <div class="container" data-aos="fade-up">
-              <div class="section-header">
-                  <h3 class="section-title">فريقنا</h3>
-                  <p class="section-description">هذا الموقع تم انشاؤه لغرض تعليمي من قبل طالبات كلية علوم الحاسب-جامعة الملك خالد</p>
-              </div>
-              <div class="row">
-                  <div class="col-lg-3 col-md-6">
-                      <div class="member" data-aos="fade-up" data-aos-delay="100">
-                          <div class="pic"><img src="assets/img/1.png" alt=""/></div>
-                          <h4 class="text-lg-center">عبير يحيى</h4>
-                          <span>نظم معلومات</span>
-                          <span>Front-end Developer</span>
-                          <div class="social">
-                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
-                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6">
-                      <div class="member" data-aos="fade-up" data-aos-delay="200">
-                          <div class="pic"><img src="assets/img/2.png" alt=""/></div>
-                          <h4 class="text-lg-center">نوف محمد</h4>
-                          <span>نظم معلومات</span>
-                          <span>Front-end Developer</span>
-
-                          <div class="social">
-                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
-                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6">
-                      <div class="member" data-aos="fade-up" data-aos-delay="300">
-                          <div class="pic"><img src="assets/img/3.png" alt=""></div>
-                          <h4 class="text-lg-center">ولاء خالد</h4>
-                          <span>نظم معلومات</span>
-                          <span>Back-end Developer</span>
-                          <div class="social">
-                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
-                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6">
-                      <div class="member" data-aos="fade-up" data-aos-delay="400">
-                          <div class="pic"><img src="assets/img/4.png" alt=""/></div>
-                          <h4 class="text-lg-center">رؤى خالد</h4>
-                          <span>نظم معلومات</span>
-                          <span>Back-end Developer</span>
-                          <div class="social">
-                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
-                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-          </div>
-      </section><!-- End Team Section -->
