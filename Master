@@ -461,3 +461,84 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+__________________________________________________________________________
+
+======= Team Section ======= -->
+      <section id="team">
+          <div class="container" data-aos="fade-up">
+              <div class="section-header">
+                  <h3 class="section-title">فريقنا</h3>
+                  <p class="section-description">هذا الموقع تم انشاؤه لغرض تعليمي من قبل طالبات كلية علوم الحاسب-جامعة الملك خالد</p>
+              </div>
+              <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <div class="member" data-aos="fade-up" data-aos-delay="100">
+                          <div class="pic"><img src="assets/img/1.png" alt=""/></div>
+                          <h4 class="text-lg-center">عبير يحيى</h4>
+                          <span>نظم معلومات</span>
+                          <span>Front-end Developer</span>
+                          <div class="social">
+                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
+                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6">
+                      <div class="member" data-aos="fade-up" data-aos-delay="200">
+                          <div class="pic"><img src="assets/img/2.png" alt=""/></div>
+                          <h4 class="text-lg-center">نوف محمد</h4>
+                          <span>نظم معلومات</span>
+                          <span>Front-end Developer</span>
+
+                          <div class="social">
+                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
+                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6">
+                      <div class="member" data-aos="fade-up" data-aos-delay="300">
+                          <div class="pic"><img src="assets/img/3.png" alt=""></div>
+                          <h4 class="text-lg-center">ولاء خالد</h4>
+                          <span>نظم معلومات</span>
+                          <span>Back-end Developer</span>
+                          <div class="social">
+                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
+                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6">
+                      <div class="member" data-aos="fade-up" data-aos-delay="400">
+                          <div class="pic"><img src="assets/img/4.png" alt=""/></div>
+                          <h4 class="text-lg-center">رؤى خالد</h4>
+                          <span>نظم معلومات</span>
+                          <span>Back-end Developer</span>
+                          <div class="social">
+                              <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                              <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                              <a href="https://mail.google.com/"><i class="fa fa-google"></i></a>
+                              <a href="https://linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </section><!-- End Team Section -->
