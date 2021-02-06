@@ -501,7 +501,7 @@ section {
 --------------------------------*/
 .section-header .section-title {
     font-size: 32px;
-    color: #111;
+    color: #054d36;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
@@ -628,328 +628,114 @@ section {
     line-height: 26px;
 }
 
-
-/* Services Section
---------------------------------*/
-#services {
-    background: #fff;
-    background-size: cover;
-    padding: 80px 0 60px 0;
-}
-
-    #services .box {
-        padding: 50px 20px;
-        margin-bottom: 50px;
-        text-align: center;
-        border: 1px solid #e6e6e6;
-        height: 200px;
-        position: relative;
-        background: #fafafa;
-    }
-
-    #services .icon {
-        position: absolute;
-        top: -36px;
-        left: calc(50% - 36px);
-        transition: 0.2s;
-        border-radius: 50%;
-        border: 6px solid #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        width: 72px;
-        height: 72px;
-        background: #054d36;
-    }
-
-        #services .icon a {
-            display: inline-block;
-        }
-
-        #services .icon i {
-            color: #fff;
-            font-size: 24px;
-        }
-
-    #services .box:hover .icon {
-        background: #fff;
-        border: 2px solid #054d36;
-    }
-
-        #services .box:hover .icon i {
-            color: #054d36;
-        }
-
-        #services .box:hover .icon a {
-            color: #054d36;
-        }
-
-    #services .title {
-        font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 15px;
-        text-transform: uppercase;
-    }
-
-        #services .title a {
-            color: #111;
-        }
-
-    #services .description {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-/* Call To Action Section
---------------------------------*/
-
-#call-to-action {
-    /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/rijal-bg.jpeg) fixed center center;*/
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(36, 56, 111, 0.52)), url(../img/rijal-bg.jpeg) fixed center center;
-    background-size: cover;
-    padding: 180px 0;
-}
-
-@media (max-width: 1024px) {
-    #call-to-action {
-        background-attachment: scroll;
-    }
-}
-
-#call-to-action .cta-title {
+/*----  Museums Style  ----*/
+#museums-cards {
     text-align: center;
-    color: #fff;
-    font-size: 35px;
-    font-weight: bolder;
+    background: #F7F7F7;
 }
 
-#call-to-action .cta-text {
-    color: #fff;
-}
-
-@media (min-width: 769px) {
-    #call-to-action .cta-btn-container {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+    #museums-cards .container {
+        padding-top: 20px;
+        padding-bottom: 100px;
     }
-}
-
-#call-to-action .cta-btn {
-    /*font-family: "Poppins", sans-serif;*/
-    font-family: 'Tajawal', sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 30px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
-}
-
-    #call-to-action .cta-btn:hover {
-        background: #054d36;
-        border: 2px solid #054d36;
-    }
-
-/* Portfolio Section
---------------------------------*/
-#portfolio {
-    background: #f7f7f7;
-    padding: 80px 0;
-}
-
-    #portfolio #portfolio-flters {
-        padding: 0;
-        margin: 0 auto 25px auto;
-        list-style: none;
+    #museums-cards h2 {
+        margin-bottom: 2px;
         text-align: center;
-        border-radius: 50px;
+        color: #054D36;
+        font-weight: 900;
+    }
+    #museums-cards a {
+        text-decoration: none;
+        outline: none;
+        font-weight:900;
     }
 
-        #portfolio #portfolio-flters li {
-            cursor: pointer;
-            display: inline-block;
-            padding: 12px 18px 14px 18px;
+    #museums-cards .card-flyer {
+        border-radius: 5px;
+    }
+
+        #museums-cards .card-flyer .image-box {
+            background: #ffffff;
+            overflow: hidden;
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+            border-radius: 5px;
+        }
+
+            #museums-cards .card-flyer .image-box img {
+                -webkit-transition: all .9s ease;
+                -moz-transition: all .9s ease;
+                -o-transition: all .9s ease;
+                -ms-transition: all .9s ease;
+                width: 100%;
+                height: 200px;
+            }
+
+        #museums-cards .card-flyer:hover .image-box img {
+            opacity: 0.7;
+            -webkit-transform: scale(1.15);
+            -moz-transform: scale(1.15);
+            -ms-transform: scale(1.15);
+            -o-transform: scale(1.15);
+            transform: scale(1.15);
+        }
+
+        #museums-cards .card-flyer .text-box {
+            text-align: center;
+        }
+
+        #museums-cards .card-flyer .text-box .text-container {
+                padding: 30px 18px;
+        }
+
+    #museums-cards .card-flyer {
+        background: #FFFFFF;
+        margin-top: 50px;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -ms-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+    }
+
+        #museums-cards .card-flyer:hover {
+            background: #fff;
+            box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -ms-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+            margin-top: 50px;
+        }
+
+        #museums-cards .card-flyer .text-box p {
+            margin-top: 10px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
             font-size: 14px;
-            font-weight: 500;
-            line-height: 1;
-            color: #666666;
-            margin: 0 5px 10px 5px;
-            transition: all ease-in-out 0.3s;
-            background: white;
-            border-radius: 4px;
+            font-weight:300;
+            letter-spacing: 1px;
+            color: #000000;
         }
 
-            #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-                color: #fff;
-                background: #054d36;
-            }
-
-            #portfolio #portfolio-flters li:last-child {
-                margin-right: 0;
-            }
-
-    #portfolio .portfolio-item {
-        margin-bottom: 30px;
-        overflow: hidden;
-    }
-
-        #portfolio .portfolio-item img {
-            position: relative;
-            top: 0;
-            transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+        #museums-cards .card-flyer .text-box h6 {
+            margin-top: 0px;
+            margin-bottom: 4px;
+            font-size: 18px;
+            text-align:center;
+            font-weight: bold;
+            text-transform: uppercase;
         }
 
-        #portfolio .portfolio-item .portfolio-info {
-            opacity: 0;
-            position: absolute;
-            left: 15px;
-            right: 15px;
-            bottom: -50px;
-            z-index: 3;
-            transition: all ease-in-out 0.3s;
-            background: #054d36;
-            padding: 15px 20px;
-        }
 
-            #portfolio .portfolio-item .portfolio-info h4 {
-                font-size: 18px;
-                color: #fff;
-                font-weight: 600;
-            }
 
-            #portfolio .portfolio-item .portfolio-info p {
-                color: #fff;
-                font-size: 14px;
-                margin-bottom: 0;
-            }
-
-            #portfolio .portfolio-item .portfolio-info .preview-link, #portfolio .portfolio-item .portfolio-info .details-link {
-                position: absolute;
-                right: 50px;
-                font-size: 24px;
-                top: calc(50% - 18px);
-                color: white;
-                transition: ease-in-out 0.3s;
-            }
-
-                #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
-                    color: #a4ebd4;
-                }
-
-            #portfolio .portfolio-item .portfolio-info .details-link {
-                right: 15px;
-            }
-
-        #portfolio .portfolio-item:hover img {
-            top: -30px;
-        }
-
-        #portfolio .portfolio-item:hover .portfolio-info {
-            opacity: 1;
-            bottom: 0;
-        }
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-.portfolio-details {
-    padding-top: 30px;
-}
-
-    .portfolio-details .portfolio-details-container {
-        position: relative;
-    }
-
-    .portfolio-details .portfolio-details-carousel {
-        position: relative;
-        z-index: 1;
-    }
-
-        .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
-            margin-top: 5px;
-            text-align: left;
-        }
-
-        .portfolio-details .portfolio-details-carousel .owl-dot {
-            display: inline-block;
-            margin: 0 10px 0 0;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: #ddd !important;
-        }
-
-            .portfolio-details .portfolio-details-carousel .owl-dot.active {
-                background-color: #054d36 !important;
-            }
-
-    .portfolio-details .portfolio-info {
-        padding: 30px;
-        position: absolute;
-        right: 0;
-        bottom: -70px;
-        background: #fff;
-        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-        z-index: 2;
-    }
-
-        .portfolio-details .portfolio-info h3 {
-            font-size: 22px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-
-        .portfolio-details .portfolio-info ul {
-            list-style: none;
-            padding: 0;
-            font-size: 15px;
-        }
-
-            .portfolio-details .portfolio-info ul li + li {
-                margin-top: 10px;
-            }
-
-    .portfolio-details .portfolio-description {
-        padding-top: 50px;
-    }
-
-        .portfolio-details .portfolio-description h2 {
-            width: 50%;
-            font-size: 26px;
-            font-weight: 700;
-            margin-bottom: 20px;
-        }
-
-        .portfolio-details .portfolio-description p {
-            padding: 0 0 0 0;
-        }
-
-@media (max-width: 768px) {
-    .portfolio-details .portfolio-description h2 {
-        width: 100%;
-    }
-
-    .portfolio-details .portfolio-info {
-        position: static;
-        margin-top: 30px;
-    }
-}
 
 /* Team Section
 --------------------------------*/
 #team {
     background: #fff;
-    padding: 80px 0 60px 0;
+    padding: 20px 0 20px 0;
 }
 
     #team .member {
