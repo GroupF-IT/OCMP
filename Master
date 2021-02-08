@@ -291,7 +291,7 @@
 
                           <div>
                               <i class="fa fa-envelope"></i>
-                              <p>erth@gmail.com</p>
+                              <p>erth.asir@gmail.com</p>
                           </div>
 
                           <div>
@@ -304,26 +304,26 @@
 
                   <div class="col-lg-5 col-md-8">
                       <div class="form">
-                          <form action="mailto: erth@gmail.com" method="post" role="form">
+                          <form action="mailto: erth.asir@gmail.com" method="post" role="form" class="php-email-form">
                               <div class="form-group">
-                                  <h6 class="text-lg-right">الاسم:</h6>
-                                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="ادخل اسمك" />
+                                  <h6 class="text-lg-right">الاسم:
+                                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"></h6>
                                   <div class="validate"></div>
                               </div>
                               <div class="form-group">
-                                  <h6 class="text-lg-right">الايميل:</h6>
-                                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="ادخل ايميل صحيح" />
+                                  <h6 class="text-lg-right">الايميل:
+                                  <input type="email" class="form-control" name="email" id="email" data-rule="email"></h6>
                                   <div class="validate"></div>
                               </div>
                               <div class="form-group">
-                                  <h6 class="text-lg-right">الموضوع:</h6>
-                                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="ادخل موضوع" />
+                                  <h6 class="text-lg-right">الموضوع:
+                                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"></h6>
                                   <div class="validate"></div>
                               </div>
                               
                               <div class="form-group">
-                                  <h6 class="text-lg-right">الرسالة:*</h6>
-                                  <textarea class="form-control" name="message" id="message"rows="5" data-rule="required" data-msg="أدخل رسالتك"></textarea>
+                                  <h6 class="text-lg-right">الرسالة:
+                                  <textarea class="form-control" name="message" id="message"rows="5" data-rule="minlen:4"></textarea></h6>
                                   <div class="validate"></div>
                               </div>
                               <div class="mb-3">
