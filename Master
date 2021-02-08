@@ -304,7 +304,7 @@
 
                   <div class="col-lg-5 col-md-8">
                       <div class="form">
-                          <form action="mailto: erth.asir@gmail.com" method="post" role="form" class="php-email-form">
+                          <form action="mailto: erth.asir@gmail.com" method="post" role="form" class="email-form">
                               <div class="form-group">
                                   <h6 class="text-lg-right">الاسم:
                                   <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"></h6>
