@@ -4,16 +4,24 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>erth</title>
+    <title>Erth</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-3.0.0.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/popper.min.js"></script>
 
+    <%-- carousel w3 --%>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <%--  --%>
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon"/>
+    <link href="assets/img/logoerthwhite.png" rel="icon"/>
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
 
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet"/>
+   
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet"/>
@@ -90,7 +98,7 @@
       <section id="museums">
          <div id="museums-cards">
         <div class="container">
-             <h2 class="title">متاحـف عسيـر</h2>
+             <h2 class="section-header">متاحـف عسيـر</h2>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <a href="#">
@@ -177,28 +185,44 @@
         </div>
     </div>
       </section>
-    <%-- End Museums Section --%>
-
-
-     
-
-        
+    <%-- End Museums Section --%> 
     
       <!-- ======= Events Section ======= -->
-      <section id="events" class="portfolio">
-         
-          <div class="container" data-aos="fade-up">
-              <div class="section-header">
-                  <h3 class="section-title">الأحداث</h3>
-                  <p class="section-description">أحداث وأخبار المتاحف</p>
-                  <p>ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.</p>
-                  <p>ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.</p>
-                  <p>ناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال "lorem ipsum" في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.</p>
-              
-              </div>
-          </div>
-
-               </section><!-- End events Section -->
+      <section id="events">
+        <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="First slide"  class="d-block w-100" src="assets/img/phto3.jpg"/>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 style="animation-delay: 1s"> الحدث الأول</h3>
+					<p class="animated fadeInUp" style="animation-delay: 2s">هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص.</p>
+					<p class="animated fadeInUp" style="animation-delay: 3s"><a href="#">تفاصيل أكثر</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Second slide" class="d-block w-100" src="assets/img/phto3.jpg"/>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 style="animation-delay: 1s"> الحدث الثاني</h3>
+					<p class="animated fadeInUp" style="animation-delay: 2s">هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص</p>
+					<p class="animated fadeInUp" style="animation-delay: 3s"><a href="#"> تفاصيل أكثر</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Third slide" class="d-block w-100" src="assets/img/phto3.jpg"/>
+				<div class="carousel-caption d-none d-md-block">
+					<h3 style="animation-delay: 1s"> الحدث الثالث</h3>
+					<p class="animated fadeInUp" style="animation-delay: 2s">هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص</p>
+					<p class="animated fadeInUp" style="animation-delay: 3s"><a href="#"> تفاصيل أكثر</a></p>
+				</div>
+			</div>
+		</div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+	</div>
+    </section><!-- End events Section -->
       
        <!-- ======= Team Section ======= -->
       <section id="team">
@@ -307,17 +331,17 @@
                           <form action="mailto: erth.asir@gmail.com" method="post" role="form" class="email-form">
                               <div class="form-group">
                                   <h6 class="text-lg-right">الاسم:
-                                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"></h6>
+                                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"/></h6>
                                   <div class="validate"></div>
                               </div>
                               <div class="form-group">
                                   <h6 class="text-lg-right">الايميل:
-                                  <input type="email" class="form-control" name="email" id="email" data-rule="email"></h6>
+                                  <input type="email" class="form-control" name="email" id="email" data-rule="email"/></h6>
                                   <div class="validate"></div>
                               </div>
                               <div class="form-group">
                                   <h6 class="text-lg-right">الموضوع:
-                                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"></h6>
+                                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"/></h6>
                                   <div class="validate"></div>
                               </div>
                               
@@ -352,6 +376,7 @@
           </div>
       </section><!-- End Contact Section -->
     
+    
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -366,25 +391,12 @@
       <div class="copyright">
        جميع الحُقوق محفوظة&copy;٢٠٢١<strong> إرث </strong> 
       </div>
-
-        <div class= "text-lg-center">  
-      <a href="https://www.facebook.com/"><i class="fa fa-facebook"; style="color:azure"></i></a>
-      <a href="https://twitter.com/"><i class="fa fa-twitter"; style="color:azure" ></i></a>
-      <a href="https://www.instagram.com/"><i class="fa fa-instagram"; style="color:azure"></i></a>
-      <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"; style="color:azure"></i></a>
-    
-        </div>
-        <h2 class="text-lg-center"><strong>إرث </strong></h2>
+        <div class="text-lg-center"> <a href="#"> سياسة الخصوصية</a></div>
       <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
-      -->
-         <a href="https://bootstrapmade.com/">BootstrapMade</a>
+       
+        صمم بواسطة <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
-        
+    </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
