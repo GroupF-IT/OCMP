@@ -1,0 +1,125 @@
+#header {
+    padding: 30px 0;
+    /* height: 92px; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+    background: rgba(52, 59, 64, 0.9);
+}
+#sidebar .navbar {
+    position: absolute;
+    display: block;
+    right: 0%;
+    margin-top: 68px;
+    padding-left: 0px;
+    width: 260px;
+    height: 100%;/*162%*/
+    background-color: #484e53;
+    text-align: center;
+    transition: 0.800s ease;
+}
+
+#sidebar .navbar > .side-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+#sidebar .nav-item {
+    display: flex;
+}
+
+#sidebar .nav-item > .nav-link {
+        text-decoration: none;
+        color: white;
+        font-size: 1.1em;
+        padding: 1em;
+        flex: 1;
+    }
+#sidebar .nav-item > .nav-link:hover {
+            background-color: whitesmoke;
+            color: black;
+}
+
+#sidebar .toggle-collapse {
+    float: left;
+    margin-left: -3.3em;
+    margin-top: .5em;
+    content: "";
+    outline: inherit;
+    border: 0px;
+    background: transparent;
+}
+/*toggle icon*/
+#sidebar .toggle-icon,
+#sidebar .toggle-icon::before,
+#sidebar .toggle-icon::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    position: fixed;
+    background-color: #148060;
+    border-radius: 2em;
+    border: 1px solid #148060;
+    cursor: pointer;
+    transition: 0.800s ease;
+    margin-top: 0.8em;
+}
+
+#sidebar .toggle-icon::before {
+        position: absolute;
+        left: -1px;
+        margin-top: -0.8em;
+}
+
+#sidebar .toggle-icon::after {
+        position: absolute;
+        left: -1px;
+        margin-top: 0.6em;
+        width: 20px;
+}
+
+#sidebar .toggle-icon { /*the middle shorter*/
+    width: 15px;
+}
+
+#sidebar .show .toggle-icon::after {
+    width: 30px;
+}
+
+#sidebar .show .toggle-icon {
+    width: 30px;
+}
+
+#sidebar .nav-item > .site-name {
+    text-decoration: none;
+    /* padding: .4em; */
+    padding-top: 0.2em;
+    padding-right: 1.3em;
+    font-size: 2em;
+    color: whitesmoke;
+}
+/*---------- Sections ------------*/
+.AdminCon {
+    width: 100%;
+    margin-top: 6em;
+    margin-bottom: 14.5em;
+    padding-right: 290px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.AdminCon p{
+    font-size:13px;
+    padding: 25px;
+}
+/*.AdminCon {
+    background-color: #a9a9a9;
+    overflow: hidden;
+    padding: 21px 0;
+    width: 55%;
+    float: left;
+}*/
