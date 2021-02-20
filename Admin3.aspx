@@ -30,7 +30,7 @@
 </head>
 <body>
  <!-- ======= Header ======= -->
- -<header id="header">
+<header id="header">
       <div class="container">
 
           <div id="logo" class="pull-right">
@@ -58,48 +58,39 @@
           
       </div>
   </header><!-- End Header -->
-     <main id="main">
-    <%-- Sidebar --%>
-      <div id="sidebar" class="container">
-        <nav class="navbar" id="navID">
-            <button type="button" onclick="myFnc(this)" class="toggle-collapse" id="toggle-button"><!--class="bx-toggle-right"-->
-                <span class="toggle-icon"></span>
-            </button>
+  
+    <div class="d-flex" id="wrapper">
 
-            <ul class="side-nav" style="padding-left: 0px;">
-                <li class="nav-item">
-                    <a href="#" class="site-name"> Admin Page</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#AdminH" class="nav-link">الصفحة الرئيسية</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#AdminA" class="nav-link"> admin إضافة</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#AdminM" class="nav-link">المتاحف والتراخيص</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#AdminS" class="nav-link">ضبط الأقسام</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#AdminT" class="nav-link">الدفع والتذاكر</a>
-                </li>
-                </ul>
-        </nav>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <div class="sidebar-heading">صفحة المسؤل</div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action ">الصفحة الرئيسية</a>
+        <a href="#" class="list-group-item list-group-item-action ">إضافة مسؤل</a>
+        <a href="#" class="list-group-item list-group-item-action ">المتاحف والتراخيص</a>
+        <a href="#" class="list-group-item list-group-item-action ">ضبط الأقسام</a>
+        <a href="#" class="list-group-item list-group-item-action ">الدفع والتذاكر</a>        
+      </div>
     </div>
-    <%-- End Sidebar --%>
+    <!-- /#sidebar-wrapper -->
 
-    <section id="#AdminH">
-        <div class="AdminCon">
-          <p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم. قام البروفيسور "ريتشارد ماك لينتوك" (Richard McClintock) وهو بروفيسور اللغة اللاتينية في جامعة هامبدن-سيدني في فيرجينيا بالبحث عن أصول كلمة لاتينية غامضة في نص لوريم إيبسوم وهي "consectetur"، وخلال تتبعه لهذه الكلمة في الأدب اللاتيني اكتشف المصدر الغير قابل للشك. فلقد اتضح أن كلمات نص لوريم إيبسوم تأتي من الأقسام 1.10.32 و 1.10.33 من كتاب "حول أقاصي الخير والشر" (de Finibus Bonorum et Malorum) للمفكر شيشيرون (Cicero) والذي كتبه في عام 45 قبل الميلاد. هذا الكتاب هو بمثابة مقالة علمية مطولة في نظرية الأخلاق، وكان له شعبية كبيرة في عصر النهضة. السطر الأول من لوريم إيبسوم "Lorem ipsum dolor sit amet.." يأتي من سطر في القسم 1.20.32 من هذا الكتاب.
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
 
-للمهتمين قمنا بوضع نص لوريم إبسوم القياسي والمُستخدم منذ القرن الخامس عشر في الأسفل. وتم أيضاً توفير الأقسام 1.10.32 و 1.10.33 من "حول أقاصي الخير والشر" (de Finibus Bonorum et Malorum) لمؤلفه شيشيرون (Cicero) بصيغها الأصلية، مرفقة بالنسخ الإنكليزية لها والتي قام بترجمتها هـ.راكهام (H. Rackham) في عام 1914.</p>
-        </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="btn btn-outline shadow-none" id="menu-toggle">القائمة</button>       
+      </nav>
 
-    </section>
 
-</main>
+      <div class="container-fluid">
+        <h1 class="mt-4">أهلاً بـك</h1>
+        <p>صفحة المسؤل توفر له جميع الخدمات للتحكم وضبط المتاحف ومحتواياتها</p>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
 
 <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -155,25 +146,12 @@
   <script src="assets/vendor/aos/aos.js"></script>
      <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script> 
-
-    <%-- Admin toggle --%>
-    <script>
-        function myFnc(e) {
-            e.classList.toggle("show");
-
-            var elem = document.getElementById("navID"),
-                Style = window.getComputedStyle(elem),
-                right = Style.getPropertyValue("right");
-
-            if (right == "0px") {
-                elem.style.right = "-260px";
-            } else {
-                elem.style.right = "0px";
-            }
-        }
-    </script>
-
- 
-
+     <!-- Menu Toggle Script -->
+  <script>
+      $("#menu-toggle").click(function (e) {
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+      });
+  </script>
 </body>
 </html>
