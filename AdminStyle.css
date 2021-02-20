@@ -1,125 +1,85 @@
-#header {
-    padding: 30px 0;
-    /* height: 92px; */
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    transition: all 0.5s;
-    z-index: 997;
-    background: rgba(52, 59, 64, 0.9);
-}
-#sidebar .navbar {
-    position: absolute;
-    display: block;
-    right: 0%;
+
+#wrapper {
+    overflow-x: hidden;
     margin-top: 68px;
-    padding-left: 0px;
-    width: 260px;
-    height: 100%;/*162%*/
-    background-color: #484e53;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
     text-align: center;
-    transition: 0.800s ease;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    background-color: #484e53;
 }
 
-#sidebar .navbar > .side-nav {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-}
-
-#sidebar .nav-item {
-    display: flex;
-}
-
-#sidebar .nav-item > .nav-link {
-        text-decoration: none;
-        color: white;
-        font-size: 1.1em;
+    #sidebar-wrapper .sidebar-heading {
         padding: 1em;
-        flex: 1;
+        font-size: 1.7em;
+        color: whitesmoke;
     }
-#sidebar .nav-item > .nav-link:hover {
-            background-color: whitesmoke;
-            color: black;
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+    #sidebar-wrapper .list-group a{
+        color:#fff;
+    }
+/*boots classes*/
+#sidebar-wrapper .list-group-item-action:hover {
+        z-index: 1;
+        color: #495057;
+        text-decoration: none;
+        background-color: #ffffff;
 }
 
-#sidebar .toggle-collapse {
-    float: left;
-    margin-left: -3.3em;
-    margin-top: .5em;
-    content: "";
-    outline: inherit;
-    border: 0px;
-    background: transparent;
+    #sidebar-wrapper .list-group-flush > .list-group-item {
+        border-width: 0 0 5px;
+        font-size: 1.1em;
+        padding: 16px;
+        border-color: #484e53;
+    }
+    #sidebar-wrapper .list-group-item {
+        position: relative;
+        display: block;
+        padding: .75rem 1.25rem;
+        background-color: #484e53;
+        border: 1px solid rgba(0,0,0,.125);
+    }
+/**/
+#page-content-wrapper {
+  min-width: 100vw;
 }
-/*toggle icon*/
-#sidebar .toggle-icon,
-#sidebar .toggle-icon::before,
-#sidebar .toggle-icon::after {
-    content: "";
-    width: 30px;
-    height: 4px;
-    position: fixed;
-    background-color: #148060;
-    border-radius: 2em;
-    border: 1px solid #148060;
-    cursor: pointer;
-    transition: 0.800s ease;
-    margin-top: 0.8em;
+/**/
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
 }
 
-#sidebar .toggle-icon::before {
-        position: absolute;
-        left: -1px;
-        margin-top: -0.8em;
-}
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
 
-#sidebar .toggle-icon::after {
-        position: absolute;
-        left: -1px;
-        margin-top: 0.6em;
-        width: 20px;
-}
-
-#sidebar .toggle-icon { /*the middle shorter*/
-    width: 15px;
-}
-
-#sidebar .show .toggle-icon::after {
-    width: 30px;
-}
-
-#sidebar .show .toggle-icon {
-    width: 30px;
-}
-
-#sidebar .nav-item > .site-name {
-    text-decoration: none;
-    /* padding: .4em; */
-    padding-top: 0.2em;
-    padding-right: 1.3em;
-    font-size: 2em;
-    color: whitesmoke;
-}
-/*---------- Sections ------------*/
-.AdminCon {
+  #page-content-wrapper {
+    min-width: 0;
     width: 100%;
-    margin-top: 6em;
-    margin-bottom: 14.5em;
-    padding-right: 290px;
-    padding-left: 40px;
-    margin-right: auto;
-    margin-left: auto;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-right: -15rem;
+  }
 }
-.AdminCon p{
-    font-size:13px;
-    padding: 25px;
+/*-------Toggle but------*/
+#page-content-wrapper .btn-outline {
+    margin-top: 15px;
+    color: #054d36;
+    border-color: #054d36;
+    border-width: 3px;
 }
-/*.AdminCon {
-    background-color: #a9a9a9;
-    overflow: hidden;
-    padding: 21px 0;
-    width: 55%;
-    float: left;
-}*/
+    #page-content-wrapper .btn-outline:hover {
+        color: #054d36;
+        border-width: 5px;
+        border-color: #054d36;
+    }
