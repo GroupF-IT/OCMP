@@ -1,0 +1,445 @@
+
+#wrapper {
+    overflow-x: hidden;
+    margin-top: 68px;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    text-align: center;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    background-color: #484e53;
+}
+
+    #sidebar-wrapper .sidebar-heading {
+        padding: 1em;
+        font-size: 1.7em;
+        color: whitesmoke;
+    }
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+    #sidebar-wrapper .list-group a{
+        color:#fff;
+    }
+/*boots classes*/
+#sidebar-wrapper .list-group-item-action:hover {
+        z-index: 1;
+        color: #495057;
+        text-decoration: none;
+        background-color: #ffffff;
+}
+
+    #sidebar-wrapper .list-group-flush > .list-group-item {
+        border-width: 0 0 5px;
+        font-size: 1.1em;
+        padding: 16px;
+        border-color: #484e53;
+    }
+    #sidebar-wrapper .list-group-item {
+        position: relative;
+        display: block;
+        padding: .75rem 1.25rem;
+        background-color: #484e53;
+        border: 1px solid rgba(0,0,0,.125);
+    }
+/**/
+#page-content-wrapper {
+  min-width: 100vw;
+}
+/**/
+#wrapper.toggled #sidebar-wrapper {
+  margin-right: -15rem;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-right: -15rem;
+  }
+}
+/*-------Toggle but------*/
+#page-content-wrapper .btn-outline {
+    margin-top: 15px;
+    color: #054d36;
+    border-color: #054d36;
+    border-width: 3px;
+}
+    #page-content-wrapper .btn-outline:hover {
+        color: #054d36;
+        border-width: 5px;
+        border-color: #054d36;
+    }
+/*------Rating------*/
+#rating{
+    margin-bottom:10px;
+
+}
+#rating h6 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1px;
+}
+#rating .ratings{
+    color:#fff;
+}
+#rating .stars{
+    color:#d5a536;
+}
+/*-----Opening------*/
+#opening h5 {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+.opening-time {
+    font-size: small;
+    padding-left: 9px;
+    padding-right: 10px;
+}
+
+.li {
+    list-style: none;
+}
+
+.span {
+    float: left;
+    padding-right: 10px;
+}
+
+
+/*location*/
+#location{
+    margin-top:2rem;
+}
+#location h5 {
+        color: #fff;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-2 iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+/*------Event-------*/
+#Mevents {
+   padding:30px;
+}
+#Mevents img {
+    vertical-align: middle;
+    border-style: none;
+    /*height: 550px;
+        width: 192px;*/
+    opacity: 0.9;
+}
+
+
+#Mevents .carousel {
+    position: relative;
+    /* padding-top: 0px; */
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/*
+        #events .carousel-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }*/
+
+#Mevents .carousel-inner {
+    position: relative;
+    width: 100%;
+    padding:20px;
+    overflow: hidden;
+}
+/*----ticket*/
+#ticket .container-fluid {
+    margin-top: 80px;
+    margin-bottom: 80px
+}
+
+#ticket .card {
+    background-color: #424242;
+    padding: 40px 10px
+}
+
+#ticket .text-grey {
+    color: #fff
+}
+
+#ticket .fa {
+    font-size: 25px;
+    cursor: pointer
+}
+
+#ticket input,
+select {
+    padding: 2px 6px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: none;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center !important
+}
+
+    #ticket input:focus,
+    select:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border-bottom: 1px solid #00C853;
+        outline-width: 0
+    }
+
+#ticket select option {
+    background-color: #616161
+}
+
+    #ticket select option:focus {
+        background-color: #00C853 !important
+    }
+
+#::placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+#ticket :-ms-input-placeholder {
+    color: #fff
+}
+
+#ticket ::-ms-input-placeholder {
+    color: #fff
+}
+
+#ticket button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+#ticket .btn {
+    border-radius: 50px;
+    width: 120px
+}
+
+#ticket .exit {
+    border: 1px solid #9E9E9E;
+    color: #9E9E9E;
+    background-color: transparent
+}
+
+    #ticket .exit:hover {
+        border: 1px solid #9E9E9E;
+        color: #000 !important;
+        background-color: #9E9E9E
+    }
+
+@media screen and (max-width: 768px) {
+    #ticket .mob {
+        width: 70%
+    }
+
+    #ticket select.mob {
+        width: 50%
+    }
+}
+
+/*-----Mabout-----*/
+#Mabout {
+    background: #fff;
+    padding-top:20px;
+    /* padding: 80px 0;*/
+}
+
+    /*#about .about-container .background {
+        min-height: 300px;
+        background: url(../img/erth.about.jpg) center top no-repeat;
+        margin-bottom: 10px;
+    }*/
+
+    #Mabout .abou-section {
+        background: url(../img/Traditional.about.jpg) no-repeat left;
+        background-size: 55%;
+        background-color: #fff;
+        overflow: hidden;
+        padding: 21px 0;
+    }
+
+    #Mabout .inner-container {
+        width: 55%;
+        float: right;
+        background-color: #fff;
+        padding: 125px;
+    }
+
+        #Mabout .inner-container h2 {
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+@media screen and (max-width: 1200px) {
+    #Mabout .inner-container {
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #Mabout .abou-section {
+        background-size: 100%;
+        padding: 37px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Mabout .abou-section .h2 {
+        padding-top: 15px;
+    }
+
+    #Mabout .inner-container {
+        width: 100%;
+    }
+
+    #Mabout .abou-section .p {
+        padding-top: 1px;
+    }
+}
+
+#Mabout .abou-section p {
+    line-height: 26px;
+}
+
+
+/* license Section
+--------------------------------*/
+#license {
+    background: #f7f7f7;
+    padding: 10px;
+}
+
+        #license .email p {
+            padding-top: 5px;
+        }
+
+
+    #license .email-form .validate {
+        display: none;
+        color: red;
+        margin: 0 0 15px 0;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    #license .email-form .error-message {
+        display: none;
+        color: #fff;
+        background: #ed3c0d;
+        text-align: right;
+        padding: 15px;
+        font-weight: 600;
+    }
+
+        #license .email-form .error-message br + br {
+            margin-top: 25px;
+        }
+
+    #license .email-form .sent-message {
+        display: none;
+        color: #fff;
+        background: #18d26e;
+        text-align: center;
+        padding: 15px;
+        font-weight: 600;
+    }
+
+    #license .email-form .loading {
+        display: none;
+        background: #fff;
+        text-align: center;
+        padding: 15px;
+    }
+
+        #license .email-form .loading:before {
+            content: "";
+            display: inline-block;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            margin: 0 10px -6px 0;
+            border: 3px solid #18d26e;
+            border-top-color: #eee;
+            -webkit-animation: animate-loading 1s linear infinite;
+            animation: animate-loading 1s linear infinite;
+        }
+
+    #license .email-form input, #license .php-email-form textarea {
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+    }
+
+        #license .email-form input::focus, #license .php-email-form textarea::focus {
+            background-color: #054d36;
+        }
+
+    #license .email-form button[type="submit"] {
+        background: #054d36;
+        border: 0;
+        padding: 10px 24px;
+        color: #fff;
+        transition: 0.4s;
+    }
+
+        #license .email-form button[type="submit"]:hover {
+            background: #8cc4b2;
+        }
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
