@@ -4,7 +4,6 @@
 body {
     background: #fff;
     color: #666666;
-    /*font-family: "Open Sans", sans-serif;*/
     font-family: 'Tajawal', sans-serif;
     direction: rtl;
 }
@@ -26,7 +25,6 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    /*font-family: "Poppins", sans-serif;*/
     text-align: right;
     font-family: 'Tajawal', sans-serif;
     font-weight: 400;
@@ -580,6 +578,7 @@ section {
 --------------------------------*/
 #about {
     background: #fff;
+    margin-bottom:50px;
    /* padding: 80px 0;*/
 }
 
@@ -870,23 +869,17 @@ section {
     background: #f7f7f7;
     padding: 0px 0 10px 0;
 }
-
-    #contact #google-map {
-        height: 300px;
-        margin-bottom: 20px;
-    }
-
-    #contact .info {
+#contact .info {
         color: #333333;
     }
 
-        #contact .info i {
+ #contact .info i {
             font-size: 32px;
             color: #054d36;
             float: right;
         }
 
-        #contact .info p {
+ #contact .info p {
             padding: 0 0 10px 50px;
             margin-bottom: 20px;
             text-align: center;
@@ -894,15 +887,17 @@ section {
             font-size: 14px;
         }
 
-        #contact .info .email p {
+ #contact .info .email p {
             padding-top: 5px;
         }
 
     #contact .social-links {
+       /* margin: 29px;*/
+        text-align: center;
         padding-bottom: 20px;
     }
 
-        #contact .social-links a {
+ #contact .social-links a {
             font-size: 18px;
             margin-left: 5%;
             display: inline-block;
@@ -917,82 +912,12 @@ section {
             transition: 0.3s;
         }
 
-            #contact .social-links a:hover {
+ #contact .social-links a:hover {
                 background: #054d36;
                 color: #fff;
             }
 
-    #contact .email-form .validate {
-        display: none;
-        color: red;
-        margin: 0 0 15px 0;
-        font-weight: 400;
-        font-size: 13px;
-    }
 
-    #contact .email-form .error-message {
-        display: none;
-        color: #fff;
-        background: #ed3c0d;
-        text-align: right;
-        padding: 15px;
-        font-weight: 600;
-    }
-
-        #contact .email-form .error-message br + br {
-            margin-top: 25px;
-        }
-
-    #contact .email-form .sent-message {
-        display: none;
-        color: #fff;
-        background: #18d26e;
-        text-align: center;
-        padding: 15px;
-        font-weight: 600;
-    }
-
-    #contact .email-form .loading {
-        display: none;
-        background: #fff;
-        text-align: center;
-        padding: 15px;
-    }
-
-        #contact .email-form .loading:before {
-            content: "";
-            display: inline-block;
-            border-radius: 50%;
-            width: 24px;
-            height: 24px;
-            margin: 0 10px -6px 0;
-            border: 3px solid #18d26e;
-            border-top-color: #eee;
-            -webkit-animation: animate-loading 1s linear infinite;
-            animation: animate-loading 1s linear infinite;
-        }
-
-    #contact .email-form input, #contact .php-email-form textarea {
-        border-radius: 0;
-        box-shadow: none;
-        font-size: 14px;
-    }
-
-        #contact .email-form input::focus, #contact .php-email-form textarea::focus {
-            background-color: #054d36;
-        }
-
-    #contact .email-form button[type="submit"] {
-        background: #054d36;
-        border: 0;
-        padding: 10px 24px;
-        color: #fff;
-        transition: 0.4s;
-    }
-
-        #contact .email-form button[type="submit"]:hover {
-            background: #8cc4b2;
-        }
 
 @-webkit-keyframes animate-loading {
     0% {
@@ -1055,3 +980,37 @@ section {
 /*--------------------------------------------------------------
 # slidebar
 --------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# contactcard
+--------------------------------------------------------------*/
+#contactcard{
+    padding-right:100px;
+    
+}
+#contact .card {
+    position: relative;
+    text-align:center;
+    padding: 30px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: whitesmoke;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+#contact .btn-outline {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #054d36;
+    border-color: #054d36;
+    border-width: 3px;
+}
+#contact .row{
+    padding: 3px;
+}
