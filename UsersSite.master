@@ -1,0 +1,153 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UsersSite.master.cs" Inherits="OCMP1.UsersSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>Erth</title>
+
+    <%--Vendor CSS Files--%>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <%--Logo icons--%> 
+    <link href="assets/img/logoerthwhite.png" rel="icon"/>
+    <%--Google Fonts --%>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet"/>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <%-- FONT AWESOME --%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <%-- Custom styles for this template --%>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="assets/css/InnerStyle.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <%--======= Header =======--%> 
+      <header id="header" >
+          <div class="container">
+
+              <div id="logo" class="pull-right">
+                  <h1><a href="Home.aspx">إرث</a></h1>
+              </div>
+
+              <nav id="nav-menu-container">
+                   <ul class="nav-menu">
+                  <li class="nav-item active"><a href="#">إنشاء حساب</a> </li>
+                  <li class="nav-item active"><a href="#">تسجيل الدخول</a></li>                                  
+              </ul>
+
+                 <ul class="nav-menu">
+                  <li><a href="#contact">تواصل معنا</a></li>
+                  <li><a href="Owner.aspx">nearby</a></li>
+                  <li><a href="#events">الأحداث</a></li>
+                  <li><a href="#museums">المتاحف</a></li><!--museums-->
+                  <li><a href="AdminPage.aspx">فريقنا</a></li>
+                  <li><a href="#about">عن إرث </a></li>
+                  <li><a href="Home.aspx">الصفحة الرئيسية</a></li><!--hero-->
+              </ul>
+
+              </nav><!-- #nav-menu-container -->
+          
+          </div>
+       </header><!-- End Header -->
+
+<%-- wrapper --%>
+    <div class="d-flex" id="wrapper">
+
+  <%--Main Content Placeholder--%>         
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>        
+   <!-- Main Content Placeholder --> 
+
+    </div>  
+<!-- /#wrapper -->
+
+
+ 
+
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+       جميع الحُقوق محفوظة&copy;٢٠٢١<strong> إرث </strong> 
+      </div>
+        <div class="text-lg-center"> <a href="#"> سياسة الخصوصية</a></div>
+      <div class="credits">
+       
+        صمم بواسطة <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+    </form>
+ 
+
+  <!-- Vendor JS Files -->
+ <script src="assets/vendor/jquery/jquery.min.js"></script>     
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/superfish/superfish.min.js"></script>
+  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+     <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script> 
+     <!-- Menu Toggle Script -->
+  <script>
+      $("#menu-toggle").click(function (e) {
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+      });
+  </script>
+    <%-- Ticket --%>
+    <script>
+        $(document).ready(function () {
+
+            $('.add').click(function () {
+                $(".list").append(
+                    '<div class="mb-2 row justify-content-between px-3">' +
+                    '<select class="mob mb-2">' +
+                    '<option value="opt1">الأحد</option>' +
+                    '<option value="opt2">الأثنين</option>' +
+                    '<option value="opt3">الثلاثاء</option>' +
+                    '</select>' +
+                    '<div class="mob">' +
+                    '<label class="text-grey mr-1">From</label>' +
+                    '<input class="ml-1" type="time" name="from">' +
+                    '</div>' +
+                    '<div class="mob mb-2">' +
+                    '<label class="text-grey mr-4">To</label>' +
+                    '<input class="ml-1" type="time" name="to">' +
+                    '</div>' +
+                    '<div class="mt-1 cancel fa fa-times text-danger">' +
+                    '</div>' +
+                    '</div>');
+            });
+
+            $(".list").on('click', '.cancel', function () {
+                $(this).parent().remove();
+            });
+
+        });
+    </script>
+ 
+</body>
+</html>
