@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Master.aspx.cs" Inherits="OCMP1.Master" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="OCMP1.Master" %>
 
 <!DOCTYPE html>
 
@@ -40,7 +40,7 @@
     <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>        
-
+ <form id="form1" runat="server">
   <!-- ======= Header ======= -->
   <header id="header" class="header-transparent">
       <div class="container">
@@ -52,18 +52,18 @@
 
           <nav id="nav-menu-container">
               <ul class="nav-menu">
-                  <li><a href="Admin3.aspx">إنشاء حساب</a></li>
-                  <li><a href="#">تسجيل الدخول</a></li>                  
+                  <li class="nav-item active"><a href="#">إنشاء حساب</a> </li>
+                  <li class="nav-item active"><a href="#">تسجيل الدخول</a></li>                                  
               </ul>
 
               <ul class="nav-menu">
                   <li><a href="#contact">تواصل معنا</a></li>
-                  <li><a href="WebForm1.aspx">nearby</a></li>
+                  <li><a href="AdminPage.aspx">فريقنا</a></li>
+                  <li><a href="OwnerPage.aspx">nearby</a></li>
                   <li><a href="#events">الأحداث</a></li>
-                  <li><a href="#museums">المتاحف</a></li><!--museums-->
-                  <li><a href="#team">فريقنا</a></li>
+                  <li><a href="#museums">المتاحف</a></li><!--museums-->                  
                   <li><a href="#about">عن إرث </a></li>
-                  <li class="menu-active"><a href="Master.aspx">الصفحة الرئيسية</a></li><!--hero-->
+                  <li class="menu-active"><a href="Home.aspx">الصفحة الرئيسية</a></li><!--hero-->
               </ul>
 
           </nav><!-- #nav-menu-container -->
@@ -101,19 +101,23 @@
       <section id="museums">
          <div id="museums-cards">
         <div class="container">
-             <h2 class="section-header">متاحـف عسيـر</h2>
+            <div class="section-header">
+                  <h3 class="section-title">متاحف عسير</h3>
+                  <center><p style="text-align:center">تسرد متاحف عسير و توثق تاريخ وتراث عسير العريق</p></center>
+              </div>
+             
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <a href="#">
+                    <a href="MuseumPage.aspx">
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="assets/img/hero.jpg" alt="" />
+                                    <img src="assets/img/c1.jpg" alt="" />
                                 </div>
                                 <div class="text-container">
-                                    <h6>العنوان 1</h6>
-                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. </p>
-                                    <a href="#">لتفاصيل أكثر</a>
+                                    <h6>متحف الراقدي</h6>
+                                    <p>متحف الراقدي أحد متاحف منطقة عسير في أبها , أسسه محمد بن علي الراقدي، ويتكون المتحف من تسعة أقسام.</p>
+                                   <a href="MuseumPage.aspx">لتفاصيل أكثر</a>
                                 </div>
                             </div>
                         </div>
@@ -124,11 +128,11 @@
                         <div class="card-flyer">
                             <div class="text-box">
                                 <div class="image-box">
-                                    <img src="assets/img/hero.jpg" alt="" />
+                                    <img src="assets/img/Ajial.png" alt="" />
                                 </div>
                                 <div class="text-container">                                    
-                                   <h6>العنوان 2</h6>
-                                    <p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. </p>
+                                   <h6>متحف الأجيال</h6>
+                                    <p>متحف الأجيال أحد متاحف منطقة عسير ، أسسه عبد الله مشبب آل ملاح عسيري. يقع المتحف شمال مدينة أبها في قرية العين آل يعلا بني مالك عسير،</p>
                                     <a href="#">لتفاصيل أكثر</a>
                                 </div>
                             </div>
@@ -301,83 +305,95 @@
       </section><!-- End Team Section -->
 
       <!-- ======= Contact Section ======= -->
-      <section id="contact">
-          <div class="container">
-              <div class="section-header">
-                  <h3 class="section-title">تواصل معنا</h3>
-                  <p class="section-description">نحن نعمل باستمرار لجعل تجربتك مع بوابة إرث أسهل, سنقوم بالرد على رسالتكم خلال 24 ساعة.</p>
+       <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">تواصل معنا</h3>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-2 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="fa fa-map-marker"></i>
+                <p>عسير</p>
               </div>
+
+              <div>
+                <i class="fa fa-envelope"></i>
+                <p>erth@example.com</p>
+              </div>
+
+              <div>
+                <i class="fa fa-phone"></i>
+                <p> 555555555 +966</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+            </div>
+
           </div>
 
-          <div class="container mt-5">
-              <div class="row justify-right">
+          <div class="col-lg-6 col-md-8">
+           <div class="form">
+                <div class="card "> 
+             
+            <div class="row">    
+                <div class="col-sm-4">    
+                 <asp:Label ID="Label1" runat="server" Text="* الاسم"></asp:Label>    
+                </div>    
+                <div class="col-sm-8">    
+                    <asp:TextBox ID="txtname" CssClass="form-control" runat="server" Required="required"></asp:TextBox>    
+                </div>  
+                <div></div>
+            </div> 
 
-                  <div class="col-lg-3 col-md-4">
-
-                      <div class="info">
-
-                          <div>
-                              <i class="fa fa-envelope"></i>
-                              <p>erth.asir@gmail.com</p>
-                          </div>
-
-                          <div>
-                              <i class="fa fa-phone"></i>
-                              <p>+966 5555555</p>
-                          </div>
-                      </div>
-
-                  </div>
-
-                  <div class="col-lg-5 col-md-8">
-                      <div class="form">
-                          <form action="mailto: erth.asir@gmail.com" method="post" role="form" class="email-form">
-                              <div class="form-group">
-                                  <h6 class="text-lg-right">الاسم:
-                                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"/></h6>
-                                  <div class="validate"></div>
-                              </div>
-                              <div class="form-group">
-                                  <h6 class="text-lg-right">الايميل:
-                                  <input type="email" class="form-control" name="email" id="email" data-rule="email"/></h6>
-                                  <div class="validate"></div>
-                              </div>
-                              <div class="form-group">
-                                  <h6 class="text-lg-right">الموضوع:
-                                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4"/></h6>
-                                  <div class="validate"></div>
-                              </div>
-                              
-                              <div class="form-group">
-                                  <h6 class="text-lg-right">الرسالة:
-                                  <textarea class="form-control" name="message" id="message"rows="5" data-rule="minlen:4"></textarea></h6>
-                                  <div class="validate"></div>
-                              </div>
-                              <div class="mb-3">
-                                  <div class="loading"></div>
-                                  <div class="error-message"></div>
-                                  <div class="sent-message"></div>
-                              </div>
-
-                              <div class="text-center"><button type="submit">ارسل </button></div>
-                              
-                          </form>
-
-                      </div>
-
-                  </div>
-                  <div class="social-links">
-                      <h3>مواقع التواصل الاجتماعي</h3>
-                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                      <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                      <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                  </div>
-              </div>
-              
+            <div class="row">    
+                <div class="col-sm-4">    
+                 <asp:Label ID="Label2" runat="server" Text="* البريد الإلكتروني"></asp:Label>    
+                </div>    
+                <div class="col-sm-8">    
+                    <asp:TextBox ID="txtfrom" CssClass="form-control" runat="server"  Required="required"></asp:TextBox>    
+                </div>  
+                <div></div>
+            </div>    
+    
+            <div class="row">    
+                <div class="col-sm-4">    
+                    <asp:Label ID="Label3" runat="server" Text="* الموضوع"></asp:Label>    
+                </div>    
+                <div class="col-sm-8">    
+                    <asp:TextBox ID="txtsub" CssClass="form-control" runat="server"  Required="required"></asp:TextBox>    
+                </div>    
+            </div>    
+    
+            <div class="row">    
+                <div class="col-sm-4">    
+                    <asp:Label ID="Label4" runat="server" Text="* الوصف"></asp:Label>    
+                </div>    
+                <div class="col-sm-8"> 
+                    <asp:TextBox ID="txtBody" runat="server" class="form-control" TextMode="MultiLine" cols="20" rows="5"  Required="required"></asp:TextBox>   
+                </div>    
+            </div>    
+            <div class="row text-center" style="margin:auto;">    
+                <asp:Button ID="Button1" runat="server" CssClass="btn btn-outline" Text="إرسال" OnClick="Button1_Click" />    
+            </div>    
+        </div>         
+            </div>
           </div>
-      </section><!-- End Contact Section -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
     
     
   </main><!-- End #main -->
@@ -403,6 +419,7 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+</form>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
