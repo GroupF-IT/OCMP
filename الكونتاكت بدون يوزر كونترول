@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Net;
+using System.Net.Mail;
+using System.Text;
+
+namespace OCMP1
+{
+    public partial class Master : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {  }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string txtto = "erth.asir@gmail.com";
+                //string mail_msg = "From: " + txtfrom.Text.ToString();
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+                client.EnableSsl = true;
+                client.DeliveryMethod = SmtpDeliveryMethod.Network;
+                client.UseDefaultCredentials = false;
+                client.Credentials = new NetworkCredential("erth.asir@gmail.com", "ANWR2016");
+
+                MailMessage msgobj = new MailMessage();
+                msgobj.To.Add(txtto);
+                msgobj.From = new MailAddress("erth.asir@gmail.com");
+                msgobj.Subject = txtsub.Text;
+                msgobj.Body = "الاسم" + ": " + txtname.Text + "\n" + "الايميل" + ": " + txtfrom.Text + "\n" + "الوصف" + ": \n" + txtBody.Text;
+                client.Send(msgobj);
+                Confirm();
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "popup", "alert('تم إرسال رسالتك، شكرًا');", true);
+            }
+            catch (Exception ex)
+            { Response.Write("couldnt" + ex.Message); }
+        }
+        private void Confirm()
+        {
+            string ToEmail = txtfrom.Text.Trim();
+            string UserName = txtname.Text;
+            string Subject2 = txtsub.Text;
+
+            MailMessage mailMessage = new MailMessage("emailadreess@gmail.com", ToEmail);
+
+            StringBuilder sbEmailBody = new StringBuilder();
+            sbEmailBody.Append("عزيزنا " + UserName);
+            sbEmailBody.Append("<br/><br/>");
+            sbEmailBody.Append("شكراً لتواصلك معنا");
+            sbEmailBody.Append("<br/><br/>");
+            sbEmailBody.Append("لقد تلقينا رسالتك عن  " + Subject2 + "<br/>");
+            sbEmailBody.Append("سيتم الرد عليك في اقرب وقت ممكن.");
+            sbEmailBody.Append("<br/><br/><br/>");
+            sbEmailBody.Append(" ,إرث ");
+            sbEmailBody.Append(" فريق الدعم ");
+
+            mailMessage.IsBodyHtml = true;
+
+            mailMessage.Body = sbEmailBody.ToString();
+            mailMessage.Subject = "Re: شكراً لتواصلك معنا";
+            SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
+            smtpClient.Credentials = new System.Net.NetworkCredential()
+            {
+                UserName = "erth.asir@gmail.com",
+                Password = "ANWR2016"
+            };
+
+            smtpClient.EnableSsl = true;
+            smtpClient.Send(mailMessage);
+
+        }
+    }
+}
